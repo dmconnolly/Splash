@@ -1,0 +1,44 @@
+NEWS
+BBC UK - http://feeds.bbci.co.uk/news/uk/rss.xml
+BBC - http://feeds.bbci.co.uk/news/rss.xml
+The Independent - http://www.independent.co.uk/news/rss
+Sky -  http://feeds.skynews.com/feeds/rss/home.xml
+Huffington Post - http://www.huffingtonpost.co.uk/feeds/verticals/uk/index.xml
+NPR - http://www.npr.org/rss/rss.php?id=1001
+
+ENTERTAINMENT AND ARTS
+BBC - http://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml
+The Independent - http://www.independent.co.uk/arts-entertainment/rss
+Sky - http://feeds.skynews.com/feeds/rss/entertainment.xml
+Huffington Post - http://www.huffingtonpost.co.uk/feeds/verticals/uk-entertainment/index.xml
+NPR - http://www.npr.org/rss/rss.php?id=1008
+
+SPORTS
+BBC - http://feeds.bbci.co.uk/sport/0/rss.xml
+The Independent - http://www.independent.co.uk/sport/rss
+ESPN - http://sports.espn.go.com/espn/rss/news
+UEFA - http://www.uefa.com/rssfeed/news/rss.xml
+NPR - http://www.npr.org/rss/rss.php?id=1055
+
+GAMING
+Gamespot - http://www.gamespot.com/feeds/mashup/
+Games Radar - http://www.gamesradar.com/all-platforms/news/rss/
+
+SCIENCE AND TECHNOLOGY
+BBC - http://feeds.bbci.co.uk/news/technology/rss.xml
+Huffington Post - http://www.huffingtonpost.co.uk/feeds/verticals/uk-tech/index.xml
+NASA - https://www.nasa.gov/rss/dyn/breaking_news.rss
+
+BUSINESS AND FINANCE
+BBC - http://feeds.bbci.co.uk/news/business/rss.xml
+NPR - http://www.npr.org/rss/rss.php?id=1017
+
+MUSIC
+Rolling Stone - http://www.rollingstone.com/music.rss
+NME - http://www.nme.com/rss/news
+Pitchfork - http://pitchfork.com/rss/news/
+NPR - http://www.npr.org/rss/rss.php?id=1039
+
+ARCHITECTURE & DESIGN
+Architizer - architizer.tumblr.com/rss
+Dezeen - feeds.feedburner.com/dezeen?format=xml

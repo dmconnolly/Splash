@@ -1,0 +1,10 @@
+Redo logins -
+    Digest passwords and compare hash instead of decrypting on server.
+    Use a shared login with the main site.
+
+Regex -
+    Rewrite REPLACE_TAG_PATTERN regex in ArticleFinder.java to use OR when removing sets of tags.
+
+Articles -
+    When caching, pull a thumbnail to use when displaying the article and store in the database (separate multimedia db?).
+    Display the image stored in the DB next to the article to avoid https mixed content warnings.

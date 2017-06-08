@@ -1,0 +1,10 @@
+<a class="btn btn-primary" role="button" data-toggle="collapse" href="#articleID"><span class="glyphicons glyphicons-more"></span></a>
+<div class="collapse" id="articleID">
+    <div class="well">
+        <ul class="nav nav-pills collapseLinks">
+            <li role="presentation"><a class="collapseLinks" href="#"><span class="glyphicons glyphicons-star-empty"></span>Subscribe</a></li>
+            <li role="presentation"><a class="collapseLinks" href="#"><span class="glyphicons glyphicons-circle-minus"></span>Block</a></li>
+            <li role="presentation"><a class="collapseLinks" href="#"><span class="glyphicons glyphicons-bookmark"></span>Read Article Later</a></li>
+        </ul>
+    </div>
+</div>

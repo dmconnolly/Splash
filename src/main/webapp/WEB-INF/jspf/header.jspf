@@ -1,0 +1,45 @@
+<%@ page import="splash.stores.loggedIn"%>
+<%@ page pageEncoding="UTF-8" %>
+
+<%
+    loggedIn lg = (loggedIn) session.getAttribute("loggedIn");
+%>
+<nav class="navbar navbar-static-top no-select" id="header" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" id="logo" href="./">Splash</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> <%
+            if(lg == null){ %>
+            <ul class="nav navbar-nav"><li><a class="navButton active" id="homeButton" href="./">Home</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a class="navButton" id="registerButton" href="register">Register</a></li>
+                <li><a class="navButton" id="loginButton" href="login">Login</a></li>        
+            </ul> <%
+            }else{ %>
+            <ul class="nav navbar-nav">
+                <li><a class="navButton active" id="homeButton" href="./">Your Feed</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a class="navButton" id="readingListButton" onclick="changeCategory(this)"><span class="glyphicons glyphicons-book-open"></span>Reading List</a></li>
+                <li><a class="navButton" id="allNewsButton" onClick="changeCategory(this)"><span class="glyphicons glyphicons-globe-af"></span>All News</a></li>
+                <li>
+                    <a class="dropdown-toggle navButton" id="profileButton" data-toggle="dropdown" role="button" aria-haspopup="true"><span class="glyphicons glyphicons-user"></span><%=lg.getName()%><span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a id="navDropDown" href="profile">Profile</a></li>
+                        <li class="divider" ></li>
+                        <li><a id="navDropDown" href="logout">Logout</a></li>
+                    </ul>
+                </li>
+            </ul> <%
+            } %>
+        </div>
+    </div>
+</nav>

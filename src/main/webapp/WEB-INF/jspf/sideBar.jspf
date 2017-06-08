@@ -1,0 +1,25 @@
+<div id="sideBar">
+    <ul class="btn-group nav nav-pills nav-stacked sideBarList">
+        <li role="presentation" class="sideBarButton">
+            <a class="glyphicons glyphicons-newspaper sidebar-anchor" id="newsButton" onclick="changeCategory(this)" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="News"></a>
+        </li>
+        <li role="presentation" class="sideBarButton">
+            <a class="glyphicons glyphicons-usd sidebar-anchor" id="businessButton" onclick="changeCategory(this)" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="Business & Finance"></a>
+        </li>
+        <li role="presentation" class="sideBarButton">
+            <a class="glyphicons glyphicons-lab sidebar-anchor" id="scienceButton" onclick="changeCategory(this)" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="Science & Technology"></a>
+        </li>
+        <li role="presentation" class="sideBarButton">
+            <a class="glyphicons glyphicons-soccer-ball sidebar-anchor" id="sportButton" onclick="changeCategory(this)" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="Sport"></a>
+        </li>
+        <li role="presentation" class="sideBarButton">
+            <a class="glyphicons glyphicons-gamepad sidebar-anchor" id="gamingButton" onclick="changeCategory(this)" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="Gaming"></a>
+        </li>
+        <li role="presentation" class="sideBarButton">
+            <a class="glyphicons glyphicons-music sidebar-anchor" id="musicButton" onclick="changeCategory(this)" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="Music"></a>
+        </li>
+        <li role="presentation" class="sideBarButton">
+            <a class="glyphicons glyphicons-tv sidebar-anchor" id="entertainButton" onclick="changeCategory(this)" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="Entertainment"></a>
+        </li>
+    </ul>    
+</div>

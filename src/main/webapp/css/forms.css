@@ -1,0 +1,61 @@
+#formDiv{
+    
+}
+
+.form-group{
+
+}
+
+.inputForm{
+    font-size: 20px;
+    -webkit-font-smoothing: antialiased;
+    margin: auto;
+    margin-top: 60px;
+    max-width: 400px;
+}
+
+.formInput{
+    margin-top: 15px;
+}
+
+.error{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 2px;
+}
+
+.has-success{
+    border-color:#4BB94D;
+}
+
+.tick { 
+    position: relative; 
+}
+
+.tick .glyphicons {
+  position: absolute;
+  padding:6px;
+  pointer-events: none;
+}
+
+.tickRight .glyphicons{
+    right: 0px;
+}
+
+.tickRight input{
+    padding-right: 30px;
+}
+
+.green{
+    color: green;
+}
+
+.red{
+    color:red;
+}
+
+
+.error{
+    font-weight: 100;
+    margin-top: 10px;
+}
